@@ -23,6 +23,8 @@ export function NavBar() {
 
   const productsList = useSelector((state) => state.productsReducer.products);
 
+
+  /* when user search for a product */
   useEffect(() => {
     axios
       .get(
@@ -43,6 +45,8 @@ export function NavBar() {
   useEffect(() => {
     localStorage.setItem("cartItems", JSON.stringify(cartItems));
   }, [cartItems]);
+
+  /* handle add to cart */
 
   const handleAddProduct = (product) => {
     const productExists = cartItems.find(
