@@ -6,6 +6,8 @@ import "./section.css";
 export function Section(props) {
   const { products, handleAddProduct } = props;
 
+  // main section
+
   return (
     <Box>
       <SideBarSection />
