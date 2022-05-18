@@ -42,6 +42,8 @@ export function ProductDetails() {
     setPass(newPass);
   }, [Items, id]);
 
+  // getting the product Reviews
+
   useEffect(() => {
     axios
       .get(`https://backendapi.turing.com/products/${id}/reviews`)
