@@ -1,3 +1,5 @@
+// Store for storing data in redux
+
 import { createStore, applyMiddleware, compose } from "redux";
 
 import createSagaMiddleware from "redux-saga";

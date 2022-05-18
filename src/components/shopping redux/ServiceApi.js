@@ -1,5 +1,7 @@
 import axios from "axios";
 
+// fetch products from API
+
 export function getDefaultProducts() {
   return axios
     .get(`https://backendapi.turing.com/products?page=1&limit=100`)

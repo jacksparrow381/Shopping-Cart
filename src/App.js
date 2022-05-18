@@ -4,6 +4,8 @@ import { ProductDetails } from "./components/ProductDetails/productdetails";
 import { HomePage } from "./components/Homepage/homepage";
 import { FinishOrder } from "./components/FinishOrder/finishorder";
 
+// Showing data in main app.js and routing is applied
+
 function App() {
   return (
     <Router>

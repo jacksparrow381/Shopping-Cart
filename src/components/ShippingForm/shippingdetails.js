@@ -8,6 +8,8 @@ import { OrderConfirmation } from "./orderconfirmation";
 import { steps } from "../constant";
 import "./shippingcases.css";
 
+// Shipping Details
+
 export function ShippingDetails() {
   const [activeStep, setActiveStep] = useState(0);
 

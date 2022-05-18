@@ -16,12 +16,16 @@ import { AiFillDelete } from "react-icons/ai";
 export function Cart(props) {
   const { cartItems, updateCartItems, open, handleClose } = props;
 
+
+  /* clearing the items from cart */
   const handleClearCart = () => {
     updateCartItems([]);
   };
 
   const getCartItems = JSON.parse(localStorage.getItem("cartItems"));
 
+
+  /* handle increase quantity from cart */
   const InreaseQuantity = (product) => {
     const productExists = cartItems.find(
       (item) => item.product_id === product.product_id
@@ -38,6 +42,8 @@ export function Cart(props) {
       updateCartItems([...cartItems, { ...product, quantity: 1 }]);
     }
   };
+
+  /* handle decrease quantity from cart */
 
   const DecreaseQuantity = (product) => {
     const productExists = cartItems.find(

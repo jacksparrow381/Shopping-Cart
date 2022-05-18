@@ -1,6 +1,8 @@
 import { call, put, takeEvery } from "redux-saga/effects";
 import { getProducts, getDefaultProducts } from "./ServiceApi";
 
+// using saga to fetch products
+
 import {
   GET_PRODUCTS_LIST,
   SET_PRODUCTS_LIST,

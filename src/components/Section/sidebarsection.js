@@ -4,6 +4,8 @@ import { Box, Typography, ListItemButton, ListItemText } from "@mui/material";
 import { GET_PRODUCTS_LIST } from "../shopping redux/Actions";
 import { categoryList } from "../constant";
 
+// showing category list
+
 export function SideBarSection(props) {
   const dispatch = useDispatch();
 
