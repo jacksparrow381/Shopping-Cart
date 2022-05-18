@@ -4,6 +4,8 @@ const productState = {
   products: [],
 };
 
+// reducer for products
+
 export function productsReducer(state = productState, action) {
   switch (action.type) {
     case SET_PRODUCTS_LIST:
