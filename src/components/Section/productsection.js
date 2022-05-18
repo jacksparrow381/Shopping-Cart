@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function ProductSection(props) {
   const { products, handleAddProduct } = props;
+
+  // showing the products
   return (
     <Box>
       <Box className="product-list">
