@@ -1,3 +1,5 @@
+// exporting constant
+
 export const categoryList = [
   {
     CategoryName: "French",
