@@ -1,8 +1,11 @@
 # Shopping Cart
+
 A shopping cart on an online retailer's site is a piece of software that facilitates the purchase of a product or service. It accepts the customer's payment and organizes the distribution of that information to the merchant, payment processor and other parties.
 
 # Stack
+
 The project primarily uses following technologies:
+
 - Craete React App
 - Material-UI
 - Redux-Saga
@@ -12,49 +15,46 @@ The project primarily uses following technologies:
 # UI and Features:
 
 ## Main Page
-![image](https://user-images.githubusercontent.com/100084352/168970222-69cd0608-e1a4-432f-b3d8-6ac04cf061cb.png)
+
+![image](https://github.com/jacksparrow381/Shopping-Cart/assets/100084352/376e575b-09eb-4ac4-9a00-770da42f9426)
 
 ## Navbar
+
 ![image](https://user-images.githubusercontent.com/100084352/168970445-a7980bac-063e-498f-844a-6754544ec44c.png)
 
-
 ## Sidebar
+
 ![image](https://user-images.githubusercontent.com/100084352/168970338-77f0e55d-8c17-423f-a207-ba1694ebecaa.png)
 
 ## Product Section
-![image](https://user-images.githubusercontent.com/100084352/168970613-020c2c75-de4c-42d0-85a6-99d8e753a326.png)
+
+![image](https://github.com/jacksparrow381/Shopping-Cart/assets/100084352/efc6bf78-4794-4794-a82c-7ec4c8e929f2)
 
 ## Product Detail Page
+
 ![image](https://user-images.githubusercontent.com/100084352/168970773-f5fc6e48-f4dd-4d63-9ef0-6bb1ff61e090.png)
 
 ## Empty Cart
+
 ![image](https://user-images.githubusercontent.com/100084352/168970918-a0eedcea-e825-4755-8b35-520e58a3e1c2.png)
 
 ## Cart Page
+
 ![image](https://user-images.githubusercontent.com/100084352/168971041-821ee0ce-7e53-498d-a47c-6c79c4516f45.png)
 
 ## Shipping Details Page
-![image](https://user-images.githubusercontent.com/100084352/168971156-9aaf255d-d5cf-48f2-92eb-3f3121afbff4.png)
 
+![image](https://user-images.githubusercontent.com/100084352/168971156-9aaf255d-d5cf-48f2-92eb-3f3121afbff4.png)
 
 ![image](https://user-images.githubusercontent.com/100084352/168971192-7ad65f94-f12f-4e56-ba8f-55c0c51f6257.png)
 
-
 ![image](https://user-images.githubusercontent.com/100084352/168971270-a476e5da-f215-4ab6-8064-3550445d639d.png)
 
-
 ![image](https://user-images.githubusercontent.com/100084352/168971559-719a0878-9ae6-4c72-815d-5dc0a610773b.png)
-
 
 ## Finish Order Page
 
 ![image](https://user-images.githubusercontent.com/100084352/168971685-01f9bb7a-1507-49b1-b179-375ac6703ae0.png)
-
-
-
-
-
-
 
 # Getting Started with Create React App
 
